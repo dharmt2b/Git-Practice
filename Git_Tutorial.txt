@@ -1,0 +1,39 @@
+git init
+
+git config --local --edit
+
+git remote add origin <repo_name>
+git remote -v
+
+git clone <repo_name>
+
+git checkout -b <branch_name>
+git switch <branch_name>
+
+git status
+git add . or git add -all
+
+git rm --cached <file_name>
+git reset <file_name> or HEAD
+git reset --hard HEAD
+
+git commit -m "message"
+git push -u origin <branch_name>
+
+git branch
+
+git log --oneline
+git diff
+git diff <branch_hash_code>
+git diff <branch_name>
+
+git pull
+git pull origin <branch_name>     -- if new branch from branch_name
+
+git merge
+git merge --abort
+git merge --skip
+
+git rebase
+git rebase --abort
+git rebase --skip
